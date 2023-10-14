@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- icon -->
+    <link rel="icon" href="assets/img/icon.png" type="image/x-icon" />
+
+    <title>Fast Logistic</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="index.html">
+            <img
+              src="assets/img/Fast Log.png"
+              alt="Fast Logistic"
+              width="150"
+            />
+          </a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="rates.html">Rates</a></li>
+            <li><a href="track.html">Track</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- form -->
+
+
+        
+
+        <aside id="elpashipp">
+          <div class="container h-100">
+            <div class="row h-100">
+              <div class="col-md-4">
+                <div class="hero-content">
+                  <div>
+                    <div>
+                    <form 
+                    id="ekspedisiForm">
+                      <h1 class="texth1">Form Request Shipp</h1>
+                      <div class="ship">
+                      
+                      <div>
+                      <label for="ReceiversName"></label>
+                      <input
+                        type="text"
+                        id="ReceiversName"
+                        name="ReceiversName"
+                        placeholder="Receiver's Name"
+                        style="
+                        padding: 10px 250px;
+                        text-align: center;
+                        "
+                      />
+                      </div>
+                      <br />
+                      <br />
+
+                      <div>
+                      <label for="TrackingNumber"></label>
+                      <input
+                        type="text"
+                        id="TrackingNumber"
+                        name="TrackingNumber"
+                        placeholder="Tracking Number"
+                        style="
+                        padding: 10px 250px;
+                        text-align: center;
+                        "
+                      />
+                    </div>
+                      <br />
+                      <br />
+
+                      <div>
+                      <label for="PhoneNumber"></label>
+                      <input
+                        type="tel"
+                        id="PhoneNumber"
+                        name="PhoneNumber"
+                        placeholder="Phone Number"
+                        style="
+                        padding: 10px 250px;
+                        text-align: center;
+                        "
+                      />
+                      </div>
+                      <br />
+                      <br />
+
+                      <div>
+                      <label for="PackageWeight"></label>
+                      <input
+                        type="number"
+                        id="PackageWeight"
+                        name="PackageWeight"
+                        placeholder="Package Weight (KG)"
+                        style="
+                        padding: 10px 250px;
+                        text-align: center;
+                        "
+                      />
+                    </div>
+                      <br />
+                      <br />
+                      
+                      <div>
+                      <label for="ServiceOption">Service Option</label>
+                      <select id="ServiceOption" name="ServiceOption">
+                        <option value="Air Expedition">Air Expedition</option>
+                        <option value="Sea Expedition">Sea Expedition</option>
+                        <option value="Land Expedition">Land Expedition</option>
+                      </select>
+                    </div>
+                      <br />
+                      <br />
+
+                      <!-- <input class="Submitshipp" type="submit" value="Submit" /> -->
+                      <!-- <input class="Submitshipp" type="button" id="klik" value="Submit" />
+                      <input class="Submitshipp" type="button" id="remove" value="Clear" /> -->
+                      <button class="Submitshipp" type="button" id="addEkspedisi">Add Expedition</button>
+                      <button class="Submitshipp" type="button" id="clearEkspedisi">Clear All</button>
+                      <div id="daftarEkspedisi"></div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <footer>
+      <div class="foot">
+        <div class="conta">
+          <ul class="ada">
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="foot">
+      <ul class="ada">
+        <li><img src="assets/img/sosmed/1.png" alt="" width="20px" /></li>
+        <li><img src="assets/img/sosmed/2.png" alt="" width="20px" /></li>
+        <li><img src="assets/img/sosmed/3.png" alt="" width="20px" /></li>
+        <li><img src="assets/img/sosmed/4.png" alt="" width="20px" /></li>
+      </ul>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/track.js"></script>
+  </body>
+</html>
